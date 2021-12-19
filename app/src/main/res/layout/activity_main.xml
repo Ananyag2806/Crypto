@@ -87,8 +87,10 @@
             android:layout_margin="5dp"
             android:text="Encryption"
             android:textStyle="bold"
+            android:background="@drawable/buttonoutline2"
             android:textSize="25sp"
             android:textColor="#FFFFFF"/>
+
 
         <Button
             android:id="@+id/decd"
@@ -97,6 +99,7 @@
             android:layout_gravity="center"
             android:layout_margin="5dp"
             android:text="Decryption"
+            android:background="@drawable/buttonoutline3"
             android:textStyle="bold"
             android:textSize="25sp"
             android:textColor="#FFFFFF"/>

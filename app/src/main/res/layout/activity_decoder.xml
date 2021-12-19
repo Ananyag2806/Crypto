@@ -78,6 +78,7 @@ android:layout_marginRight="15dp">
     android:layout_gravity="center"
     android:text="Decrypt"
     android:textSize="20sp"
+    android:background="@drawable/buttonoutline"
     android:textStyle="bold"
     android:onClick="dec"
     android:textColor="#EDC9AE"/>
@@ -140,11 +141,12 @@ android:layout_marginLeft="15dp"
 android:layout_marginRight="15dp">
 
 <Button
-    android:id="@+id/btncpl"
+    android:id="@+id/btndcpl"
     android:layout_width="230dp"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:text="Copy"
+    android:background="@drawable/buttonoutline"
     android:textStyle="bold"
     android:textSize="20sp"
     android:textColor="#EDC9AE"
