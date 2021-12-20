@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     android:orientation="vertical"
     tools:context=".Decoder">
 
@@ -78,7 +79,7 @@ android:layout_marginRight="15dp">
     android:layout_gravity="center"
     android:text="Decrypt"
     android:textSize="20sp"
-    android:background="@drawable/buttonoutline"
+    android:background="#FFFFFF"
     android:textStyle="bold"
     android:onClick="dec"
     android:textColor="#EDC9AE"/>
@@ -146,7 +147,7 @@ android:layout_marginRight="15dp">
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:text="Copy"
-    android:background="@drawable/buttonoutline"
+    android:background="#FFFFFF"
     android:textStyle="bold"
     android:textSize="20sp"
     android:textColor="#EDC9AE"
