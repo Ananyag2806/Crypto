@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Crypto</string>
+    <string name="hello">Hello,</string>
+    <string name="Welcome">Welcome!</string>
+    <string name="search_elements">Search elements</string>
+    <string name="PasswordVault">Password Vault</string>
+    <string name="Encryption">Text Encryption</string>
+    <string name="Decryption">Text Decryption</string>
+    <string name="TextFile"> File Encryption</string>
 </resources>
