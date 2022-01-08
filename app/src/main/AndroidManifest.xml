@@ -21,6 +21,9 @@
             android:name=".PasswordVault"
             android:exported="false" />
         <activity
+            android:name=".VoiceEncryption"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
