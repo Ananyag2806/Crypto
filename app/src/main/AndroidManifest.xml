@@ -23,6 +23,8 @@
         <activity
             android:name=".VoiceEncryption"
             android:exported="false" />
+        <activity android:name=".dialgo"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
