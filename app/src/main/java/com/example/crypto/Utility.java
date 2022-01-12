@@ -13,7 +13,7 @@ public class Utility {
     }
     public static String getOnlyDigits(String s)
     {
-        Pattern pattern=Pattern.compile("[^8-9]");
+        Pattern pattern=Pattern.compile("[^0-9]");
         Matcher matcher= pattern.matcher(s);
         String numDigit= matcher.replaceAll("");
         return numDigit;
