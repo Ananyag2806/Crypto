@@ -25,7 +25,7 @@
         <activity
             android:name=".VoiceEncryption"
             android:exported="false" />
-        <activity android:name=".dialgo"
+        <activity android:name=".Dialog"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
