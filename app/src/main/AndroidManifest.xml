@@ -27,6 +27,8 @@
             android:exported="false" />
         <activity android:name=".Dialog"
             android:exported="false" />
+        <activity android:name=".ImageEncryption"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

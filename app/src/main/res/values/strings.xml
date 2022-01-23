@@ -7,4 +7,6 @@
     <string name="Encryption">Text Encryption</string>
     <string name="Decryption">Text Decryption</string>
     <string name="TextFile"> File Encryption</string>
+    <string name="imageEncryption"> Image Encryption</string>
+
 </resources>
