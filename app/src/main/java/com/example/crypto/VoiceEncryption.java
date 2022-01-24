@@ -5,6 +5,7 @@ import static com.example.crypto.Utility.getOnlyStrings;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.os.Build;
@@ -14,6 +15,7 @@ import android.speech.tts.TextToSpeech;
 import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import org.apache.commons.io.FileUtils;
 
@@ -26,6 +28,7 @@ public class VoiceEncryption extends AppCompatActivity {
     Button button;
     Button btnText;
     Button btnStop;
+    Button btnDec;
     MediaPlayer player=new MediaPlayer();
     File file;
     int REQUEST_WRITE_PERMISSION=1;
@@ -40,6 +43,23 @@ public class VoiceEncryption extends AppCompatActivity {
         button=findViewById(R.id.btnPlayAudio);
         btnText=findViewById(R.id.btnPlayAudio2);
         btnStop=findViewById(R.id.btnStopAudio);
+        btnDec = findViewById(R.id.btnPlayDecAudio);
+
+        btnText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = getApplicationContext();
+                Toast.makeText(context, "Encrypted", Toast.LENGTH_LONG).show();
+            }
+        } );
+
+        btnDec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = getApplicationContext();
+                Toast.makeText(context, "Decrypted", Toast.LENGTH_LONG).show();
+            }
+        } );
 
 
         btnStop.setOnClickListener(new View.OnClickListener() {

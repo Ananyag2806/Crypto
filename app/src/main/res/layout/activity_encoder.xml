@@ -59,7 +59,7 @@
            android:layout_height="wrap_content"
            android:textStyle="bold"
            android:text="Enter Your Text Here"
-           android:textColor="#EDC9AE"
+           android:textColor="#FF41FF00"
            android:textSize="20sp"
            android:layout_marginTop="5dp"
            android:layout_gravity="left"/>
@@ -80,10 +80,12 @@
                 android:layout_gravity="center"
                 android:text="Encrypt"
                 android:textSize="20sp"
-                android:background="#FFFFFF"
+                android:background="@color/green"
+                app:strokeColor="@color/green"
+                app:strokeWidth="2dp"
                 android:textStyle="bold"
                 android:onClick="enc"
-                android:textColor="#EDC9AE"/>
+                android:textColor="#EDC9AE" />
 
         </LinearLayout>
 
@@ -97,7 +99,7 @@
                 android:id="@id/divider2"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:background="#66FAFAFA"/>
+                android:background="#00000000"/>
 
         </LinearLayout>
 
@@ -113,7 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Your encrypted text here : "
-                android:textColor="#EDC9AE"
+                android:textColor="#FF41FF00"
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:layout_marginTop="5dp"
@@ -149,7 +151,7 @@
                 android:text="Copy"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:background="#FFFFFF"
+                android:background="#228B22"
                 android:textColor="#EDC9AE"
                 android:onClick="cp2"/>
 

@@ -26,6 +26,7 @@ public class Encoder extends AppCompatActivity {
 
         etenc=findViewById(R.id.etenc);
         enctv=findViewById(R.id.enctv);
+
         cpb=(ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 
     }

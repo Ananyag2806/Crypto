@@ -4,34 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".VoiceEncryption">
 
     <Button
         android:id="@+id/btnPlayAudio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="500dp"
         android:text="Play Audio"
-        android:textStyle="italic"
-        android:layout_centerInParent="true"/>
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/btnStopAudio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stop Audio"
-        android:textStyle="italic"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="190dp"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="400dp"
+        android:text="Stop Audio"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/voiceEncKey"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="300dp"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnPlayAudio2"
-        android:layout_width="wrap_content"
+        android:layout_width="276dp"
         android:layout_height="wrap_content"
-        android:text="Play Encrypted Audio"
-        android:textStyle="italic"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="250dp"
+        android:text="Encrypt and Play"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/voiceDecKey"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="150dp"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnPlayDecAudio"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:text="Decrypt and Play"
+        android:textStyle="italic" />
+
+
+
+
 
 </RelativeLayout>
