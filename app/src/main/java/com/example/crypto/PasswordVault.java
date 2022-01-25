@@ -30,7 +30,6 @@ public class PasswordVault extends AppCompatActivity {
                 Intent temp=new Intent(PasswordVault.this,Dialog.class);
                 startActivity(temp);
                 Context context = getApplicationContext();
-                Toast.makeText(context, "copied", Toast.LENGTH_LONG).show();
             }
         } );
 
@@ -38,7 +37,7 @@ public class PasswordVault extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Context context = getApplicationContext();
-                Toast.makeText(context, "copied", Toast.LENGTH_LONG).show();
+                Toast.makeText(context, "Saved Password", Toast.LENGTH_LONG).show();
             }
         } );
     }

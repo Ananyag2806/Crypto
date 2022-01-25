@@ -70,7 +70,7 @@
               android:layout_height="60dp"
               android:layout_gravity="center"
               android:textSize="20sp"
-              android:textColor="#FAFAFA"
+              android:textColor="#ffffff"
               android:layout_marginTop="5dp"/>
 
             <Button
@@ -128,7 +128,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:layout_gravity="left"
-                android:textColor="#FAFAFA"
+                android:textColor="#ffffff"
                 android:layout_marginTop="5dp"/>
 
 
